@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Title from "../components/Title";
-import Button from "./Button";
+import Button from "../components/Button";
 import { BsFillFileEarmarkPostFill } from "react-icons/bs";
 import { FaUserAlt } from "react-icons/fa";
 import { BiCommentDetail } from "react-icons/bi";
