@@ -4,6 +4,8 @@ import RandomizeColor from "./projects/02-color-project/RandomizeColor";
 import LikePhotoApp from "./projects/03-like-my-photo/LikePhotoApp";
 import TestimonialsApp from "./projects/04-testimonials-app/TestimonialsApp";
 import AlertApp from "./projects/05-alert/AlertApp";
+import TemperatureApp from "./projects/06-temperature/TemperatureApp";
+import DarkMode from "./projects/07-DarkMode/DarkMode";
 
 function App() {
   return (
@@ -12,7 +14,10 @@ function App() {
       {/* <RandomizeColor /> */}
       {/* <LikePhotoApp /> */}
       {/* <TestimonialsApp /> */}
-      <AlertApp />
+      {/* <AlertApp /> */}
+      {/* <TemperatureApp /> */}
+      {/* Uncomment the component you want to view */}
+      <DarkMode />
     </div>
   );
 }
