@@ -29,6 +29,7 @@ export default function LikePhotoApp() {
         <img
           onDoubleClick={() => {
             setLike(!like);
+            setCount(like ? count - 1 : count + 1);
           }}
           src={Dogydog}
           alt="img"
